@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color:rgb(46, 129, 164) ;
+    display: flex;
+    justify-content:center;
+    width:100vw;
+    height:100vh;
+    align-items: center;
+    overflow:hidden;
+}
+input{
+    border:2px solid gray;
+    border-radius:3px;
+    padding:10px;
+}
+label{
+    color:gray;
+}
+.container{
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5px;
+    flex-direction: column;
+    
+    
+}
+
+
+.block{
+    background-color: #fff;
+    border-radius: 5px;
+    display:flex;
+    width:400px;
+    margin-left:100px;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.button{
+    margin-top:20px;
+
+    display: flex;
+    justify-content: center;
+    gap:60px;
+}
+h3{
+    margin-bottom: 20px;
+    text-align: center;
+    color:rgb(225, 115, 25);
+}
+.input-container{
+
+    display: flex;
+    flex-direction: column;
+}
+.inner-container{
+    
+    align-items: center;
+    border-radius:10px;
+    background-color: white;
+    width:300px;
+    
+}
+.box{
+  
+    background-position: center;
+    
+    background-image: url('./Bmi/image/bmi.jpg');
+}
+.content{
+    display:block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.calculate, .clear{
+    border:none;
+    color:white;
+    padding:10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.calculate{
+    background-color: orange;
+
+}
+.clear{
+    background-color:red;
+}
+.error{
+    font-size:12px;
+    color:red;
+}
+/* .search-icon{
+    width:25px;
+    height: 25px;
+    
+    object-fit: contain;
+}
+.container{
+    background-color: #eef8dc;
+    width:350px;
+    padding:20px;
+    border-radius:10px;
+}
+.input-container{
+    margin-bottom:20px;
+    display:flex;
+    background-color: #fff;
+    border:2px solid gray;
+    align-items: center;
+    width:100%;
+    border-radius: 10px;
+    overflow: hidden;
+    
+
+}
+.search-bar{
+    flex: 1;
+    font-size: 20px;
+    height: 30px;
+    padding:10px;
+    outline:none;
+    border:none;
+}
+.search{
+    
+    text-align: center;
+    padding:10px;
+    cursor: pointer;
+}
+div img{
+    width:160px;
+    height: 160px;
+}
+.image{
+text-align: center;
+height: 150px;
+
+}
+.city, .country, .temp{
+margin:20px;
+text-align: center;
+font-weight: 600;
+font-size: larger;
+}  
+.temp{
+    font-size: 40px;
+}
+.city{
+    font-size: 30px;
+    color:rgb(245, 199, 49);
+}
+.country{
+
+    color:gray;
+    font-size:20px; 
+}
+.cord{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:60px;
+    text-align: center;
+}
+.lat{
+    display: flex;
+    
+
+}
+.log{
+    display:flex;
+}
+
+.cord div span{
+    font-size: 18px;
+}
+.cord div span:nth-child(2){
+    font-size: 20px;
+    font-weight: 600;
+}
+.icon{
+    height: 100px;
+    width: 100px;
+}
+.data-container{
+    display: flex;
+    justify-content: space-between;
+}
+.element{
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+}
+.copyright, .notfound-message {
+    text-align: center;
+    color:gray;
+}
+.copyright span{
+    font-weight: bold;
+}
+@media screen and (max-width: 400px) {
+    
+   .container{
+    margin:20%;
+   }
+    
+} */
